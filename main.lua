@@ -81,22 +81,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         ug.Rotation = 90
         ug.Parent = sicon
 
-        local sshadow = Instance.new("ImageLabel")
-        sshadow.Name = "sshadow"
-        sshadow.Parent = splash
-        sshadow.AnchorPoint = Vector2.new(0.5, 0.5)
-        sshadow.BackgroundTransparency = 1
-        sshadow.Position = UDim2.new(0.5, 0, 0.5, 0)
-        sshadow.Size = UDim2.new(1.20000005, 0, 1.20000005, 0)
-        sshadow.ZIndex = 39
-        sshadow.Image = "rbxassetid://313486536"
-        sshadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
-        sshadow.ImageTransparency = 0.400
-        sshadow.TileSize = UDim2.new(0, 1, 0, 1)
-        splash:TweenPosition(UDim2.new(0.5, 0, 0.5, 0), "InOut", "Quart", 1)
-        wait(2)
-        splash:TweenPosition(UDim2.new(0.5, 0, 2, 0), "InOut", "Quart", 1)
-        game:GetService("Debris"):AddItem(splash, 1)
+       
     end
         
 
