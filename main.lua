@@ -71,7 +71,7 @@ function lib:init(ti, dosplash, visiblekey, deleteprevious)
         sicon.BackgroundTransparency = 1
         sicon.Position = UDim2.new(0.5, 0, 0.5, 0)
         sicon.Size = UDim2.new(0, 191, 0, 190)
-        sicon.ZIndex = 40
+        sicon.ZIndex = 41
         sicon.Image = "http://www.roblox.com/asset/?id=12870982546"
         sicon.ScaleType = Enum.ScaleType.Fit
         sicon.TileSize = UDim2.new(1, 0, 20, 0)
